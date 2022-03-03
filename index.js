@@ -40,8 +40,6 @@ app.post('/userdata', urlencodedParser, desponse);
 //   res.write(data);
 //   return res.end(JSON.stringify(response));
 // });
-
-
 // this function will read the /userdata webpage and show it in userdata.json
 // function userdatas (req, res) {
 //   fs.readFile('/userdata', function(err, data) {
