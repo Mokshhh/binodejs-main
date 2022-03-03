@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+   
+    <style>
+    body {background:white !important;}
+</style>
+<div class="main w-max m-auto mt-10">
+  <div class="register">
+    <h2 class="text-2xl mb-6">Register</h2>
+  <form action="/userdata" method="POST">
+    <div class="display_name flex border rounded text-gray-500 mb-4">
+      <input class="outline-none px-4 h-full py-2 text-lg" type="text" placeholder="display name" name="first_name"/>
+    </div>
+
+    <div class="username flex border rounded text-gray-500 mb-4">
+      <input class="outline-none px-4 h-full py-2 text-lg" type="text" placeholder="username" name="last_name" />
+    </div>
+  
+    <div class="password flex border rounded text-gray-500 mb-4">
+      <input class="outline-none px-4 h-full py-2 text-lg" type="password" placeholder="password" name="password" />
+    </div>
+
+  
+    <div class="submit border rounded mb-4 bg-blue-600 text-white cursor-pointer">
+      <div class="wrapper flex w-max mx-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" /></svg>
+        <input class="outline-none px-2 h-full cursor-pointer py-2 text-lg bg-transparent" type="submit" value="submit" />
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
+
